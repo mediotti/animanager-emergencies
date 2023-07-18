@@ -1,4 +1,4 @@
-package com.animanager.emergencies.entities;
+package com.animanager.emergencies.entities.medical;
 
 
 import jakarta.persistence.*;
@@ -24,4 +24,5 @@ public class MedicalRecord {
     private String procedures;
     private UUID responsible;
     private Status status;
+    private UUID animal;
 }
