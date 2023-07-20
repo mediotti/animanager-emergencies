@@ -19,10 +19,12 @@ public class MedicalRecord {
     private UUID id;
     @Enumerated(EnumType.STRING)
     private Priorities priority;
+    @Enumerated(EnumType.STRING)
     private Bay bay;
     private String symptoms;
     private String procedures;
     private UUID responsible;
+    @Enumerated(EnumType.STRING)
     private Status status;
     private UUID animal;
 }
