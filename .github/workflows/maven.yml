@@ -47,4 +47,4 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         push: true
-        tags: medzdev/animanager-records
+        tags: medzdev/animanager-emergencies
